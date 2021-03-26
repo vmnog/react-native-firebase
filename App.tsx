@@ -1,12 +1,8 @@
 import React from 'react';
-import {Text, View} from 'react-native';
+import Home from './screens/Home';
 
 const App: React.FC = () => {
-  return (
-    <View>
-      <Text>Hello Firebase</Text>
-    </View>
-  );
+  return <Home />;
 };
 
 export default App;
