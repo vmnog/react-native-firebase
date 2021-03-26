@@ -1,8 +1,9 @@
+import 'react-native-gesture-handler';
 import React from 'react';
-import Home from './screens/Home';
+import Routes from './src/routes';
 
 const App: React.FC = () => {
-  return <Home />;
+  return <Routes />;
 };
 
 export default App;
